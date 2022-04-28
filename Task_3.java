@@ -49,7 +49,7 @@ public class Task_3 {
 
             case 2:
                 Scanner input = new Scanner(System.in);
-                System.out.println("Введiть n");
+                System.out.println("Input n");
                 int[] array2 = new int[input.nextInt()];
                 for(int i = 0; i < array2.length; i++) {
                     array2[i] = (int) (Math.random() * 200 - 100) ;
